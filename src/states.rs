@@ -1,15 +1,12 @@
 use crate::player::Player;
 use bracket_lib::prelude::*;
+use crate::{FRAME_DURATION, SCREEN_HEIGHT};
 
 enum GameMode {
     Menu,
     Playing,
     End,
 }
-
-const SCREEN_WIDTH: i32 = 80;
-const SCREEN_HEIGHT: i32 = 50;
-const FRAME_DURATION: f32 = 75.0;
 
 pub struct State {
     player: Player,
