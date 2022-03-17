@@ -1,4 +1,4 @@
-use crate::Player;
+use crate::player::Player;
 use bracket_lib::prelude::*;
 
 enum GameMode {
