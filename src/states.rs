@@ -1,5 +1,6 @@
+use crate::obstacle::Obstacle;
 use crate::player::Player;
-use crate::{Obstacle, FRAME_DURATION, SCREEN_HEIGHT, SCREEN_WIDTH};
+use crate::{FRAME_DURATION, SCREEN_HEIGHT, SCREEN_WIDTH};
 use bracket_lib::prelude::*;
 
 enum GameMode {
